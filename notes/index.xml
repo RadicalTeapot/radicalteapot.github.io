@@ -1,8 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on RadicalTeapot's Notes</title><link>https://radicalteapot.github.io/notes/</link><description>Recent content in Notes on RadicalTeapot's Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://radicalteapot.github.io/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom Emacs</title><link>https://radicalteapot.github.io/notes/doom-emacs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://radicalteapot.github.io/notes/doom-emacs/</guid><description>Keybindings Org SPC m l t: Toggle the literal or descriptive display of links.
-Magit SPC g g: open magit status buffer
-Branches b b: Checkout (without tracking) b l: Checkout (and track)</description></item><item><title>Git</title><link>https://radicalteapot.github.io/notes/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://radicalteapot.github.io/notes/git/</guid><description>Tips &amp;lsquo;n&amp;rsquo; tricks for git</description></item><item><title>Spacemacs</title><link>https://radicalteapot.github.io/notes/spacemacs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://radicalteapot.github.io/notes/spacemacs/</guid><description>Fresh install Set HOME to desired folder
-cd &amp;lt;path-to-folder&amp;gt; $env:HOME = (pwd) Clone spacemacs and checkout develop branch
-git clone https://github.com/syl20bnr/spacemacs .emacs.d cd .emacs.d git checkout develop Clone personal repo in there
-git clone https://github.com/RadicalTeapot/spacemacs-config.git .spacemacs.d Start emacs from terminal where HOME has been set
-Check that HOME in .spacemacs.d/.spacemacs.env is set to the correct path
-(Optional) Create a ps1 script to start spacemacs</description></item><item><title>Vim</title><link>https://radicalteapot.github.io/notes/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://radicalteapot.github.io/notes/vim/</guid><description>Collection of vim notes</description></item><item><title>Links</title><link>https://radicalteapot.github.io/notes/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://radicalteapot.github.io/notes/links/</guid><description>Collection of links to all sorts of content</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on RT's page on the internet</title><link>$%7BBASE_URL%7D/notes/</link><description>Recent content in Notes on RT's page on the internet</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="$%7BBASE_URL%7D/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Powershell</title><link>$%7BBASE_URL%7D/notes/powershell/powershell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>$%7BBASE_URL%7D/notes/powershell/powershell/</guid><description>&lt;aside class="note">
+ &lt;header>
+ ℹ️
+ &lt;strong> Note &lt;/strong>
+ &lt;/header>
+ &lt;p>A repository with the current profile and oh-my-posh theme &lt;a href="https://github.com/RadicalTeapot/powershell-profile">can be found here&lt;/a>&lt;/p>
+ &lt;/aside>
+
+
+&lt;h2 id="links"> Links &lt;/h2>
+
+&lt;ul>
+&lt;li>&lt;a href="https://devtut.github.io/powershell/">https://devtut.github.io/powershell/&lt;/a>&lt;/li>
+&lt;/ul>
+
+&lt;h2 id="tips"> Tips &lt;/h2>
+
+
+&lt;h3 id="run-a-powershell-script-by-double-clicking-it"> Run a Powershell script by double-clicking it &lt;/h3>
+
+&lt;p>Just create a shortcut and use the following as the target value&lt;/p>
+&lt;p>&lt;code>&amp;quot;C:\Program Files\PowerShell\7\pwsh.exe&amp;quot; -ExecutionPolicy Bypass -NoProfile -File &amp;quot;&amp;lt;absolute-path-to-ps1-file&amp;gt;.ps1&amp;quot;&lt;/code>&lt;/p>
+
+&lt;h3 id="which-equivalent"> &lt;code>which&lt;/code> equivalent &lt;/h3>
+
+&lt;p>&lt;code>Get-Command &amp;lt;command-name&amp;gt;&lt;/code>&lt;/p>
+
+&lt;h3 id="use-arguments-in-a-ps1-file"> Use arguments in a &lt;code>ps1&lt;/code> file &lt;/h3>
+
+
+&lt;pre>&lt;code data-lang=powershell>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">param&lt;/span>($arg1, $anotherArg)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Write-Output &lt;span style="color:#e6db74">&amp;#34;Args are &lt;/span>$arg1&lt;span style="color:#e6db74"> and &lt;/span>$anotherArg&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>
+
+&lt;h3 id="how-to-make-a-powershell-function-stop-and-wait-for-user-input-before-continuing"> How to make a Powershell function stop and wait for user input before continuing? &lt;/h3>
+
+&lt;p>To make a Powershell function stop and wait for user input before continuing, you can use the &lt;code>Read-Host&lt;/code> cmdlet to
+prompt the user for input. Here&amp;rsquo;s an example:&lt;/p></description></item></channel></rss>

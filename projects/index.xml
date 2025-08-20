@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on RT's page on the internet</title><link>$%7BBASE_URL%7D/projects/</link><description>Recent content in Projects on RT's page on the internet</description><generator>Hugo</generator><language>en-us</language><atom:link href="$%7BBASE_URL%7D/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Website</title><link>$%7BBASE_URL%7D/projects/personal-website/personal-website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>$%7BBASE_URL%7D/projects/personal-website/personal-website/</guid><description>&lt;p>This website is built using &lt;a href="https://gohugo.io/">Hugo&lt;/a>.&lt;/p>
+&lt;p>The main purpose of this site is to serve as a curated version of my (messy) PKM (Personal Knowledge Management) system.
+The content is generated from my &lt;a href="https://obsidian.md/">Obsidian vault&lt;/a>, which is a collection of notes, articles, and
+other resources that I find useful.&lt;/p>
+&lt;p>The site is hosted on &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a> and the custom domain name is registered with
+&lt;a href="https://www.eu.org/">eu.org&lt;/a> for free.&lt;/p>
+&lt;p>DNS is managed by &lt;a href="https://www.cloudflare.com/">Cloudflare&lt;/a> free plan.&lt;/p>
+&lt;p>The source code for this site is available on &lt;a href="">GitHub&lt;/a>.&lt;/p></description></item></channel></rss>
